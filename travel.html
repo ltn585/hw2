@@ -1,81 +1,105 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Lan's Adventure</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="utf-8">
+    <title>Lan's Travels</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   </head>
 
   <body>
-    <div class="header">
-      <img src="travel.jpg">
-      <h1>My Adventure</h1>
-      <h2>Singapore Spring 2012</h2>
-      <!-- <p>Contact Me:</p> -->
-      <ul>
-        <!-- <li><a href="mailto:l-tran@kellogg.northwestern.edu">Email</a></li> -->
-      </ul>
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Lan's Travel Blog</a>
     </div>
 
-    <h3>March 2012</h3>
-    <p>
-      In March 2012, I was fortunate to be sent to Singapore for a work trip. This
-      was not my first time there but I was still very excited because
-      I was only 6 years old the last time I was there. My husband and I stayed at the Fullerton hotel,
-      which is also a General Post Office (how interesting!). The weather was hot and humid
-      but it's only March so it can be worse in the summer. We vistied the Sand hotel, Chinatown
-      and a few hindu temples. My most favorite place was the Sri Mariamman temple in the Chinatown
-      district. It's so interesting to see the vibrant culture in this city. Now, get to the
-      good and delicious part, Food! As a reflection of its diversity, the food here is
-      also very diverse and tasty. I loved the chilli crab which is a whole crab roasted in a
-      special red sauce, served with soft baked buns. I had the same dish at least twice
-      when I was there. I hope to have a chance to go back soon!
-    <ul>
-      <li>Fullerton Hotel</li>
-      <br>
-      <img class="listpics" src="fullerton.jpg">
-      <br>
-      <li>Sri Mariamman Temple</li>
-      <br>
-      <img class="listpics" src="temple.jpg">
-      <br>
-      <li>Chilli Crab</li>
-      <br>
-      <img class="listpics" src="crab.jpg">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Singapore <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Places of Interest</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Resources</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Destinations <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
-    </ul>
 
-    </p>
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="note">
+        <h1>Singapore</h1>
+        <p>
+          In March 2012, I was fortunate to be sent to Singapore for a work trip. This
+          was not my first time there but I was still very excited because
+          I was only 6 years old the last time I was there. My husband and I stayed at the Fullerton hotel,
+          which is also a General Post Office (how interesting!). The weather was hot and humid
+          but it's only March so it can be worse in the summer.
+        </div>
+            <li>Fullerton Hotel</li>
+            <br>
+            <img style="display:block;" width="100%" height="100%" src="http://www.fullertonhotel.com/d/fullertonhotel/media/Hotel_Images/__thumbs_958_397_crop/Facade_day_-_The_Fullerton_Hotel_Singapore_1608115c9105.jpg?1313454249"class="img-rounded">
+            <br>
+            <img style="display:block;" width="100%" height="100%" src="http://www.ewtc.com/files/lq/The-Fullerton-Hotel-_1265035334.jpg"class="img-rounded">
+            <br>
+            <img style="display:block;" width="100%" height="100%" src="https://c1.staticflickr.com/5/4087/5054895708_a43635eb4f_b.jpg" class="img-rounded">
+            <br>
+            <br>
+            <br>
+            <br>
+            <a class="btn btn-success" href="#" role="button">Join Me</a>
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h1>Sri Mariamman Temple</h1>
+        We vistied the Sand hotel, Chinatown
+        and a few hindu temples. My most favorite place was the Sri Mariamman temple in the Chinatown
+        district. It's so interesting to see the vibrant culture in this city.
+        <img style="display:block;" width="100%" height="100%" src="http://www.shoreexcursions.asia/wp-content/uploads/2015/04/Sri-Mariamman-Temple.jpg" class="img-rounded">
+        <br>
+        <img style="display:block;" width="100%" height="100%" src="temple.jpg" class="img-rounded">
+      </div>
+      <div class="col-md-4">
+          <h1>Chilli Crab</h1>
+        Now, get to the
+        good and delicious part, Food! As a reflection of its diversity, the food here is
+        also very diverse and tasty. I loved the chilli crab which is a whole crab roasted in a
+        special red sauce, served with soft baked buns. I had the same dish at least twice
+        when I was there. I hope to have a chance to go back soon!
+        <img style="display:block;" width="100%" height="100%" src="http://www.honeyandsoy.com/wp-content/uploads/2010/12/singapore-chilli-crab-recipe.jpg"class="img-rounded">
+        <br>
+        <img style="display:block;" width="100%" height="100%" src="http://farm7.static.flickr.com/6105/6299380706_464bc8e9fb_b.jpg"class="img-rounded">
+        <br>
+        <img style="display:block;" width="100%" height="100%" src="http://www.seafoodparadise.com.sg/wp-content/uploads/2013/10/fried-mantou-pau.jpg" class="img-rounded">
+      </div>
+    </div>
 
     <p>For more information about Singapore:</p>
     <ul>
       <li><a href="https://en.wikipedia.org/wiki/Singapore">Click Here</a></li>
 
     </ul>
-
-    <!-- <h3>Experience</h3> -->
-
-    <!-- <h4>House Guard/Snuggle animal - Present</h4> -->
-    <!-- <p>Recently overcame fears of small waves in Lake Michigan.</p> -->
-    <!-- <p>Has caught 32229340 tenis balls.</p> -->
-
-    <!-- <h4>Passed puppy class with honor distinction</h4> -->
-    <!-- <p>Expert in fetching balls, chasing vacuums and swiffers</p> -->
-
-    <!-- <h3>Skills</h3> -->
-    <ul>
-      <!-- <li>Fetching</li> -->
-      <!-- <li>Play dead</li> -->
-      <!-- <li>Rollover</li> -->
-      <!-- <li>Jump Spin</li> -->
-    </ul>
-
-    <!-- <h3>Education</h3> -->
-    <ul>
-      <!-- <li>Puppy class, <em>San Francisco, 2014</em></li> -->
-      <!-- <li>Home Train, <em>Chicago, 2015</em></li> -->
-    </ul>
-
 
   </body>
 </html>
