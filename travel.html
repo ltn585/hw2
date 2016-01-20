@@ -2,6 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
     <title>Lan's Travels</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   </head>
@@ -23,19 +25,20 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Singapore <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Places of Interest</a></li>
+        <link rel="stylesheet" href="styles.css">
+        <li class="active"><a href="https://www.google.com/?gws_rd=ssl#q=singapore">Singapore <span class="sr-only">(current)</span></a></li>
+        <li><a href="https://www.google.com/?gws_rd=ssl#q=vietnam">Vietnam</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Resources</a></li>
+        <li><a href="http://www.nomadicmatt.com/travel-guides/southeast-asia-travel-tips/#destinations">Other Destinations</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Destinations <span class="caret"></span></a>
+          <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="https://www.google.com/maps/d/viewer?mid=zPIWKMVFOB8Y.kVyQRUWlOBp0&hl=en_US">Travel Map</a></li>
+            <li><a href="http://college.usatoday.com/2015/11/08/10-of-the-most-beautiful-places-to-visit-in-south-east-asia/">My Favorite Spots</a></li>
+            <li><a href="https://www.couchsurfing.com/">Couchsurfing</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="http://www.tripadvisor.com/">Other Resources</a></li>
           </ul>
         </li>
       </ul>
@@ -47,9 +50,10 @@
   <div class="container">
 
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 col-xs-12">
         <div class="note">
         <h1>Singapore</h1>
+        <link rel="stylesheet" href="styles.css">
         <p>
           In March 2012, I was fortunate to be sent to Singapore for a work trip. This
           was not my first time there but I was still very excited because
@@ -64,14 +68,9 @@
             <img style="display:block;" width="100%" height="100%" src="http://www.ewtc.com/files/lq/The-Fullerton-Hotel-_1265035334.jpg"class="img-rounded">
             <br>
             <img style="display:block;" width="100%" height="100%" src="https://c1.staticflickr.com/5/4087/5054895708_a43635eb4f_b.jpg" class="img-rounded">
-            <br>
-            <br>
-            <br>
-            <br>
-            <a class="btn btn-success" href="#" role="button">Join Me</a>
         </p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-xs-12">
         <h1>Sri Mariamman Temple</h1>
         We vistied the Sand hotel, Chinatown
         and a few hindu temples. My most favorite place was the Sri Mariamman temple in the Chinatown
@@ -80,7 +79,7 @@
         <br>
         <img style="display:block;" width="100%" height="100%" src="temple.jpg" class="img-rounded">
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-xs-12">
           <h1>Chilli Crab</h1>
         Now, get to the
         good and delicious part, Food! As a reflection of its diversity, the food here is
@@ -94,12 +93,14 @@
         <img style="display:block;" width="100%" height="100%" src="http://www.seafoodparadise.com.sg/wp-content/uploads/2013/10/fried-mantou-pau.jpg" class="img-rounded">
       </div>
     </div>
+    <div class="container-fluid">
 
-    <p>For more information about Singapore:</p>
-    <ul>
-      <li><a href="https://en.wikipedia.org/wiki/Singapore">Click Here</a></li>
+       <div class="row">
+         <a class="btn btn-success" href="https://en.wikipedia.org/wiki/Singapore" role="button">For More Info about Singapore</a>
+         <br>
+         <br>
+       </div>
 
-    </ul>
-
+     </div>
   </body>
 </html>
